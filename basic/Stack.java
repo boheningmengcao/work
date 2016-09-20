@@ -1,11 +1,11 @@
-Stack<Integer> Sort(Stack<Integer> S){
-  Stack<Integer> S2=new Stack<Integer>();
-  while(!S.isEmpty()){
-    Int top=s.pop;
-    while(!S2.isEmpty()&&S2.peek()>top){
-      S.push(S2.pop());
+Stack<Integer> Sort(Stack<Integer> s){
+  Stack<Integer> s2=new Stack<Integer>();
+  while(!s.isEmpty()){
+    int top=s.pop;
+    while(!s2.isEmpty()&&s2.peek()>top){
+      s.push(s2.pop());
     }
-    S2.push(top);
+    s2.push(top);
   }
-  return S2;
+  return s2;
 }
