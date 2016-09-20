@@ -1,4 +1,4 @@
-method 1
+//method reverse an array using one pointer
 
 void reverse(int[] a){  
   for(int i=0;i<a.length/2;i++){
@@ -8,7 +8,7 @@ void reverse(int[] a){
   }
 }  
 
-method 2
+//method 2: reverse an array using 2 pointers
 
 void reverse(int[]a){
   for(int i=0;j<a.length-1;i<j;i++,j--){
