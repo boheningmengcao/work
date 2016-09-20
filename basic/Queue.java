@@ -2,8 +2,8 @@ class Animal{
   int order;
   String name;
 }
-class Dog extends Animal[]
-class Cat extends Animal[]
+class Dog extends Animal{}
+class Cat extends Animal{}
 Animal clequeueAny(){
   Queue<Dog> dogs=new LinkedList<Dog>();
   Queue<Cat> cats=new LinkedList<Cat>();
